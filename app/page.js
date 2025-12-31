@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { database } from '../lib/firebase';
+import { database } from '../lib/firebase2';
 import { ref, onValue, set, remove } from 'firebase/database';
 
 const SUBJECTS = [
